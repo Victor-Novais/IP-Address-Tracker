@@ -41,7 +41,7 @@ Isso iniciará o servidor de desenvolvimento. Abra o navegador e acesse http://l
 
 # API Utilizada
 
-A aplicação usa a API [http://ipwho.is](http://ipwho.is) para obter os detalhes do endereço IP/domínio.
+A aplicação usa a API [http://ipwho.is](http://ipwho.is) para obter os detalhes do endereço IP.
 
 # Estrutura do Projeto
 
