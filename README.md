@@ -25,7 +25,7 @@ O IP Address Tracker é uma aplicação web construída com React que permite ao
 2. Instale as dependências:
 
    ```bash
-   npm installnpm install
+   npm install
 
 3. Execute a aplicação:
 
