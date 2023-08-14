@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.App {
+    width: 100vw;
+    height: 800px;
+
+}
+
+.banner {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+
+    position: absolute;
+    margin-top: 33px;
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+
+    letter-spacing: -0.286px;
+}
+
+.submit {
+    position: absolute;
+    display: flex;
+    margin-top: 94px;
+    margin-left: 443;
+}
+
+.input {
+    width: 555px;
+    height: 58px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    border: none;
+    padding-left: 24px;
+
+    color: #2C2C2C;
+    font-family: 'Rubik', sans-serif;
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: #FFF;
+    box-shadow: 0px 50px 50px -25px rgba(0, 0, 0, 0.10);
+}
+
+.input:focus {
+    outline: none;
+}
+
+
+.button {
+    width: 58px;
+    height: 58px;
+    margin-left: -20px;
+    flex-shrink: 0;
+    border-radius: 0px 15px 15px 0px;
+    border: none;
+    background: #000000;
+}
+
+.button img {
+    width: 20px;
+    height: 20px;
+}
+
+.info-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.infos {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 350px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 1110px;
+    height: 161px;
+    border-radius: 15px;
+    background: #FFF;
+    box-shadow: 0px 50px 50px -25px rgba(0, 0, 0, 0.10);
+}
+
+.info-results {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    margin-left: 32px;
+
+}
+
+.info-results p {
+
+    color: #2C2C2C;
+    font-family: Rubik;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+
+    line-height: normal;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+    opacity: 0.4987;
+}
+
+.info-results h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 213px;
+    height: 61px;
+
+    color: #2C2C2C;
+    font-family: Rubik;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.results {
+    display: flex;
+    width: 213px;
+    height: 61px;
+
+    flex-shrink: 0;
+    flex-direction: column;
+    gap: 13px;
+    align-items: center;
+
+}
+
+.divider {
+    width: 1px;
+    height: 75px;
+    flex-shrink: 0;
+    opacity: 0.15;
+    background: #000;
+
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+.map-container {
+    position: relative;
+    margin-top: -20px;
+    z-index: -1;
+
+}
