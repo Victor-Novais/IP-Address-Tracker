@@ -15,7 +15,7 @@ function App() {
     try {
       setLoading(true);
       setLocation({});
-      const response = await axios.get(`http://ipwho.is/${ipAddress}`);
+      const response = await axios.get(`https://ipwho.is/${ipAddress}`);
       setLocation(response.data);
       console.log(response.data)
     } catch (error) {
