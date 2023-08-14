@@ -4,8 +4,8 @@ O IP Address Tracker é uma aplicação web construída com React que permite ao
 
 ## Funcionalidades
 
-- **Busca de IP/Domain**: Insira um endereço IP ou nome de domínio para obter os detalhes.
-- **Informações de Localização**: Veja a cidade, região, fuso horário e ISP relacionado ao endereço IP/domínio.
+- **Busca de IP/Domain**: Insira um endereço IP para obter os detalhes.
+- **Informações de Localização**: Veja a cidade, região, fuso horário e ISP relacionado ao endereço IP.
 - **Mapa Interativo**: A aplicação exibe a localização em um mapa usando a biblioteca Leaflet.
 
 ## Como Começar
